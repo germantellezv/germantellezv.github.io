@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+}
+
+.profile-container{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.portada figure
+{
+    margin: 0;
+    
+}
+
+.portada-img img {
+    /* background-color: rgba(0,0,0,0.8); */
+    filter:brightness(0.4);
+    height: 500px;
+    object-fit: cover;
+}
+
+.profile{
+    margin: 20px;
+    margin-top: -400px;
+    position: relative;
+    background:transparent;
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+    overflow: hidden;
+    width: 500px;
+    /* border: 1px solid red; */
+}
+
+.profile p{
+    line-height: 0.5;
+}
+
+.profile .name{
+    color: white;
+    font-size: 24px;
+    font-family: "Fjalla One";
+    text-align: center;
+    /* line-height: 0.2; */
+    margin-bottom: 10px;  
+
+}
+
+.profile .profession {
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    width: 168px;
+    height: 168px;
+    border: 1px solid transparent;
+    border-radius: 150px;
+}
+.redes-sociales{
+    display: flex;
+    justify-content: center;
+}
+.redes-sociales img{
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+}
+
+nav {
+    margin-top: 60px;
+    margin-left: -40px;
+    /* border: 1px solid red; */
+}
+
+.profile nav ol{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.profile nav ol li{
+    color:white;
+    border: 1px solid rgba(255,255,255,.2);
+    border-radius: 30px;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile nav ol li:hover{
+    background-color: #47c9e5;
+    color: white;
+    /* font-weight: bold; */
+}
+
+.profile nav ol a{
+    text-decoration: none;
+}
