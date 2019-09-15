@@ -72,7 +72,9 @@ body{
     height: 30px;
     width: 30px;
     margin: 0 10px;
+    color: #fdcd07;
 }
+
 
 nav {
     margin-top: 60px;
@@ -99,11 +101,18 @@ nav {
 }
 
 .profile nav ol li:hover{
-    background-color: #47c9e5;
-    color: white;
-    /* font-weight: bold; */
+    /* background-color: #47c9e5; */
+    /* color: white; */
+    background-color: #fdcd07; /* Amarillo Condor Labs :) */
+    color: black;
 }
 
 .profile nav ol a{
     text-decoration: none;
 }
+
+.menu-item-todos{
+    background-color: #fdcd07; /* Amarillo Condor Labs :) */
+    color: black !important;
+}
+
