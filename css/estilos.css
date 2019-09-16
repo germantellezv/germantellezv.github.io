@@ -11,7 +11,6 @@ body{
 .portada figure
 {
     margin: 0;
-    
 }
 
 .portada-img img {
@@ -79,6 +78,7 @@ body{
 nav {
     margin-top: 60px;
     margin-left: -40px;
+    margin-bottom: 0;
     /* border: 1px solid red; */
 }
 
@@ -115,4 +115,44 @@ nav {
     background-color: #fdcd07; /* Amarillo Condor Labs :) */
     color: black !important;
 }
+.projects{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+.project-list{
+    width: 90%;
+    border: 1px solid red;
+    margin: 0;
+    padding: 20px;
+}
 
+.project{
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    box-shadow: -5px 6px 0.5px gainsboro;
+}
+
+.project-div{
+    display: flex;
+    justify-content: center;
+}
+
+.project-details{
+    border:1px solid red;
+    width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.project-title{
+    font-family: 'Courier New';
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.project-language{
+    margin: 0;
+}

@@ -5,17 +5,18 @@
     <title>Portafolio - Germán Téllez Vanegas</title>
     <link rel="stylesheet" href="css/estilos.css">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
     <!-- SECCIÓN DE CABECERA -->
     <header class="portada">
 
-        <figure class="portada-img">
+        <figure id="miFoto" class="portada-img">
             <img src="images/Yo_Paipa.JPG" alt="" width="100%">
         </figure>
         
-        <div class="profile-container">
+        <div id="contenedorPerfil" class="profile-container">
             <div class="profile">
                 <figure class="profile-img">
                     <img src="images/Yo_HotelCorales.jpg" alt="" height="168">
@@ -30,7 +31,7 @@
                 </div>
                 <nav>
                     <ol>
-                        <a href="#proyectos"><li class="menu-item-todos">Todos</li></a>
+                        <a href="#proyectos" onclick="ocultar()"><li class="menu-item-todos">Todos</li></a>
                         <a href="#proyectos"><li class="menu-item-javascript">Javascript</li></a>
                         <a href="#proyectos"><li class="menu-item-python">Python</li></a>
                     </ol>
@@ -41,7 +42,26 @@
 
     <!-- SECCIÓN DE PROYECTOS -->
     <section id="proyectos" class="projects">
-        Sección de proyectos
+
+        <div class="project-list">
+            <article id="recocido" class="project" >
+                <figure class="project-img">
+                    <img src="images/Simulated-annealing.jpg"">
+                </figure>
+                <div class="project-div">
+                    <div class="project-details">
+                        <p class="project-title">Proyecto de prueba</p>
+                        <p class="project-language">Python</p>
+                        <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi explicabo
+                            dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id veritatis
+                            provident ducimus.</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+
+
     </section>
     
     
