@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    background-color: #fdcd07;
 }
 
 .portada figure
@@ -122,17 +123,31 @@ nav {
 }
 .project-list{
     width: 90%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 0;
     padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
+
+
 .project{
-    border: 1px solid gray;
-    border-radius: 10px;
-    width: 400px;
+    /* border-radius: 10px; */
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: -3px 6px 0.5px gainsboro;
+    width: 380px;
     text-align: center;
-    box-shadow: -5px 6px 0.5px gainsboro;
+    margin-bottom: 15px;
+    /* border-top-left-radius: 0;
+    border-top-right-radius: 0; */
+    /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
+
+}
+
+.project figure img{
+    width: 300px;
 }
 
 .project-div{
@@ -141,16 +156,20 @@ nav {
 }
 
 .project-details{
-    border:1px solid red;
+    /* border:1px solid red; */
     width: 300px;
     padding-left: 20px;
     padding-right: 20px;
 
 }
 .project-title{
-    font-family: 'Courier New';
-    font-weight: bold;
-    margin-bottom: 0;
+    font-family: 'Fjalla One';
+    /* letter-spacing: 0.1em; */
+    /* font-weight: bold; */
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    object-fit: cover;
 }
 
 .project-language{
