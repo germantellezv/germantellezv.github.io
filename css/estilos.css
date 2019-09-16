@@ -158,9 +158,14 @@ nav {
 .project-details{
     /* border:1px solid red; */
     width: 300px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 
+}
+.project-description{
+    /* border: 1px solid #fdcd07; */
+    /* width: 350px; */
+    text-align: justify;
 }
 .project-title{
     font-family: 'Fjalla One';
