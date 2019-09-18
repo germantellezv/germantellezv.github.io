@@ -118,8 +118,14 @@ nav {
 }
 .projects{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin: 0;
+}
+
+.projects-title{
+    font-family: 'Fjalla One',sans-serif;
+    font-size: 24px;
 }
 .project-list{
     width: 90%;
