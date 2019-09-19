@@ -410,7 +410,7 @@ footer p{
     }
 
 }
-/* Iphone plus */
+/* Iphone # plus */
 @media screen and (max-width: 414px){
     .body, section, figure, img, div, .project-list{
         max-width: 414px;
@@ -454,7 +454,7 @@ footer p{
         /* width: 350px; */
     }
 }
-
+/* Redmi Note 5 */
 @media screen and (max-width: 393px){
     .body, section, figure, img, div, .project-list{
         max-width: 393px;
@@ -512,6 +512,32 @@ footer p{
         /* width: 350px; */
     }
 }
+/* Iphone # */
+@media screen and (max-width: 375px){
+    .body, section, figure, img, div, .project-list{
+        max-width: 375px;
+    }
+    .profile nav ol li {
+        font-size: 10px;
+        color: white;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 30px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px 2px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    .about-img img {
+        /* border: 5px solid green; */
+        width: 340px;
+        height: auto;
+        margin-bottom: 165px;
+    }
+}
+/* Moto G5 */
 @media screen and (max-width: 360px){
     .project {
         border: 1px solid rgba(0,0,0,.2);
@@ -573,13 +599,3 @@ footer p{
     }
     
 }
-
-
-
-
-
-
-/* Viewports
-Moto G5 Plus	360x640
-
- */
