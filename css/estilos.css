@@ -261,9 +261,20 @@ footer p{
     text-align: center;
     color: white;
 }
-@media screen and (max-width: 721px){
+
+@media screen and (max-width: 1023px){
+    .about {
+        /* border: 5px solid blue; */
+        margin-top: -35px;
+        height: 660px;
+        width: 100%;
+        background-color: #fdcd07;
+    }
+}
+
+@media screen and (max-width: 767px){
     .body, section, figure, img, div, .project-list{
-        max-width: 720px;
+        max-width: 767px;
     }
     .about{
         height: 655px;
@@ -314,3 +325,97 @@ footer p{
     
 
 }
+
+@media screen and (max-width: 480px){
+    .body, section, figure, img, div, .project-list{
+        max-width: 480px;
+    }
+
+    .profile nav ol li {
+        font-size: 10px;
+        color: white;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 30px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px 10px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+
+    .about {
+        height: 624px;
+    }
+    .about-info p {
+        font-family: 'Fjalla One',sans-serif;
+        color: white;
+        /* width: 400px; */
+        margin: 0 25px;
+        font-size: 14px;
+        text-align: center;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    .projects-title p {
+        text-align: center;
+        margin: 10px 50px 0px 50px;
+    }
+    .project {
+        border: 1px solid rgba(0,0,0,.2);
+        box-shadow: -3px 6px 0.5px gainsboro;
+        width: 480px;
+        height: 150px;
+        text-align: center;
+        margin-bottom: 15px;
+        /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
+    }
+    .project-container{
+        display: block;
+        margin-top: -115px;
+    }
+    
+    .project-description {
+        margin-right: -52px;
+        margin-top: -7px;
+        margin-left: 115px;
+        font-size: 12px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        /* border: 1px solid #fdcd07; */
+        /* width: 350px; */
+    }
+    .project-language {
+        display: none;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-align: left;
+        margin: 0;
+    }
+    .project figure img {
+        margin-left: -255px;
+        width: 152px;
+        margin-top: 5px;
+    }
+
+    .project-title {
+        text-align: left;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        /* object-fit: cover; */
+        /* letter-spacing: 0.1em; */
+        /* font-weight: bold; */
+        margin-left: 178px;
+    }
+
+}
+
+/* @media screen and (max-width: 320px){
+
+} */
+
+/* Viewports
+Moto G5 Plus	360x640
+Redmi Note 5	393x786
+ */
