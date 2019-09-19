@@ -272,6 +272,24 @@ footer p{
     }
 }
 
+/* Redmi note 5 version escritorio */
+@media screen and (max-width: 980px){
+    .body, section, figure, img, div, .project-list{
+        max-width: 980px;
+    }
+
+    .about {
+        /* border: 5px solid blue; */
+        margin-top: -35px;
+        height: 691px;
+        width: 100%;
+        background-color: #fdcd07;
+    }
+
+
+
+}
+
 @media screen and (max-width: 767px){
     .body, section, figure, img, div, .project-list{
         max-width: 767px;
