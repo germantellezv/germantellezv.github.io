@@ -1,22 +1,22 @@
 function mostrarTodos()
 {
     if (document.getElementById){
-        recocido = document.getElementById('recocido');
+        controlRemoto= document.getElementById('controlRemoto');
+        yartpApi= document.getElementById('yartpApi');
         wavefront = document.getElementById('wavefront');
         hillClimbing = document.getElementById('hillClimbing');
-        yartpApi= document.getElementById('yartpApi');
-        controlRemoto= document.getElementById('controlRemoto');
-        contadorPalabras = document.getElementById('contadorPalabras');
-        inventario = document.getElementById('inventario');
+        // recocido = document.getElementById('recocido');
+        // contadorPalabras = document.getElementById('contadorPalabras');
+        // inventario = document.getElementById('inventario');
 
 
-        recocido.style.display = 'block';
+        controlRemoto.style.display = 'block';
+        yartpApi.style.display = 'block';
         wavefront.style.display = 'block';
         hillClimbing.style.display = 'block';
-        yartpApi.style.display = 'block';
-        controlRemoto.style.display = 'block';
-        contadorPalabras.style.display = 'block';
-        inventario.style.display = 'block';
+        // recocido.style.display = 'block';
+        // contadorPalabras.style.display = 'block';
+        // inventario.style.display = 'block';
 
         // SI QUIERO QUE SE MUESTRE U OCULTE AL PRESIONAR CLIC ACA DEBAJO ESTA EL CODIGO PARA ELLO
 
