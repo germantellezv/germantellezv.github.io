@@ -32,23 +32,103 @@ function mostrarTodos()
 function mostrarPython()
 {
     if (document.getElementById){
-        recocido = document.getElementById('recocido');
+        controlRemoto= document.getElementById('controlRemoto');
         wavefront = document.getElementById('wavefront');
         hillClimbing = document.getElementById('hillClimbing');
         yartpApi= document.getElementById('yartpApi');
-        controlRemoto= document.getElementById('controlRemoto');
-        contadorPalabras = document.getElementById('contadorPalabras');
-        inventario = document.getElementById('inventario');
-        antColony = document.getElementById('antColony')
+        // antColony = document.getElementById('antColony')
+        // recocido = document.getElementById('recocido');
+        // contadorPalabras = document.getElementById('contadorPalabras');
+        // inventario = document.getElementById('inventario');
+        
         //mostrar
-        recocido.style.display = 'block';
         wavefront.style.display = 'block';
         hillClimbing.style.display = 'block';
         yartpApi.style.display = 'block';
-        inventario.style.display = 'block';
-        antColony.style.display = 'block';
+        // antColony.style.display = 'block';
+        // inventario.style.display = 'block';
+        // recocido.style.display = 'block';
+        
         // ocultar
         controlRemoto.style.display = 'none';
-        contadorPalabras.style.display = 'none';
+        // contadorPalabras.style.display = 'none';
+    }
+}
+
+function mostrarAndroid()
+{
+    if (document.getElementById){
+        controlRemoto= document.getElementById('controlRemoto');
+        wavefront = document.getElementById('wavefront');
+        hillClimbing = document.getElementById('hillClimbing');
+        yartpApi= document.getElementById('yartpApi');
+        // antColony = document.getElementById('antColony')
+        // recocido = document.getElementById('recocido');
+        // contadorPalabras = document.getElementById('contadorPalabras');
+        // inventario = document.getElementById('inventario');
+        
+        //mostrar
+        controlRemoto.style.display = 'block';
+        
+        // ocultar
+        wavefront.style.display = 'none';
+        hillClimbing.style.display = 'none';
+        yartpApi.style.display = 'none';
+        // contadorPalabras.style.display = 'none';
+        // antColony.style.display = 'block';
+        // inventario.style.display = 'block';
+        // recocido.style.display = 'block';
+    }
+}
+
+function mostrarIoT()
+{
+    if (document.getElementById){
+        controlRemoto= document.getElementById('controlRemoto');
+        yartpApi= document.getElementById('yartpApi');
+        wavefront = document.getElementById('wavefront');
+        hillClimbing = document.getElementById('hillClimbing');
+        // antColony = document.getElementById('antColony')
+        // recocido = document.getElementById('recocido');
+        // contadorPalabras = document.getElementById('contadorPalabras');
+        // inventario = document.getElementById('inventario');
+        
+        //mostrar
+        controlRemoto.style.display = 'block';
+        yartpApi.style.display = 'block';
+        
+        // ocultar
+        wavefront.style.display = 'none';
+        hillClimbing.style.display = 'none';
+        // contadorPalabras.style.display = 'none';
+        // antColony.style.display = 'block';
+        // inventario.style.display = 'block';
+        // recocido.style.display = 'block';
+    }
+}
+
+function mostrarJavascript()
+{
+    if (document.getElementById){
+        controlRemoto= document.getElementById('controlRemoto');
+        yartpApi= document.getElementById('yartpApi');
+        wavefront = document.getElementById('wavefront');
+        hillClimbing = document.getElementById('hillClimbing');
+        // antColony = document.getElementById('antColony')
+        // recocido = document.getElementById('recocido');
+        // contadorPalabras = document.getElementById('contadorPalabras');
+        // inventario = document.getElementById('inventario');
+        
+        //mostrar
+        
+        // ocultar
+        yartpApi.style.display = 'none';
+        controlRemoto.style.display = 'none';
+        wavefront.style.display = 'none';
+        hillClimbing.style.display = 'none';
+        // contadorPalabras.style.display = 'none';
+        // antColony.style.display = 'block';
+        // inventario.style.display = 'block';
+        // recocido.style.display = 'block';
     }
 }

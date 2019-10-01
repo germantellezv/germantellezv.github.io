@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,15 +10,16 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
     <script type="text/javascript" src="script.js"></script>
 </head>
+
 <body>
-   
+
     <!-- SECCIÓN DE CABECERA -->
     <header class="portada">
 
         <figure id="miFoto" class="portada-img">
             <img src="images/Yo_Paipa.JPG" alt="" width="100%">
         </figure>
-        
+
         <div id="contenedorPerfil" class="profile-container">
             <div class="profile">
                 <figure class="profile-img">
@@ -26,18 +28,31 @@
                 <p class="name">Germán Téllez Vanegas</p>
                 <p class="profession"><small>Desarrollador Backend</small></p>
                 <div class="redes-sociales">
-                    <a href="https://github.com/germantellezv"><img src="images/icons/github.png" alt="" class="github"></a>
-                    <a href="https://www.facebook.com/germantellezv"><img src="images/icons/facebook.png" alt="" class="facebook"></a>
-                    <a href="https://www.instagram.com/germantellezv/"><img src="images/icons/instagram.png" alt="" class="twitter"></a>
+                    <a href="https://github.com/germantellezv"><img src="images/icons/github.png" alt=""
+                            class="github"></a>
+                    <a href="https://www.facebook.com/germantellezv"><img src="images/icons/facebook.png" alt=""
+                            class="facebook"></a>
+                    <a href="https://www.instagram.com/germantellezv/"><img src="images/icons/instagram.png" alt=""
+                            class="twitter"></a>
                     <a href="mailto:gertellezv@gmail.com"><img src="images/icons/mail.png" alt="" class="mail"></a>
                 </div>
                 <nav>
                     <ol>
-                        <a href="#proyectos" onclick="mostrarTodos()"><li class="menu-item-todos">Todos</li></a>
-                        <a href="#proyectos" onclick=""><li class="menu-item-javascript">Javascript</li></a>
-                        <a href="#proyectos" onclick="mostrarPython()"><li class="menu-item-python">Python</li></a>
-                        <a href="#proyectos" onclick="mostrarTodos()"><li class="menu-item-python">Android</li></a>
-                        <a href="#proyectos" onclick="mostrarTodos()"><li class="menu-item-python">IoT</li></a>
+                        <a href="#proyectos" onclick="mostrarTodos()">
+                            <li class="menu-item-todos">Todos</li>
+                        </a>
+                        <a href="#proyectos" onclick="mostrarJavascript()">
+                            <li class="menu-item-javascript">Javascript</li>
+                        </a>
+                        <a href="#proyectos" onclick="mostrarPython()">
+                            <li class="menu-item-python">Python</li>
+                        </a>
+                        <a href="#proyectos" onclick="mostrarAndroid()">
+                            <li class="menu-item-python">Android</li>
+                        </a>
+                        <a href="#proyectos" onclick="mostrarIoT()">
+                            <li class="menu-item-python">IoT</li>
+                        </a>
                     </ol>
                 </nav>
             </div>
@@ -48,8 +63,12 @@
     <section class="about">
         <div class="about-info">
             <h1>Hola, soy Germán! Que gusto conocerte.</h1>
-            <p>Desde hace 20 años que di mi primer click en un mouse de aquellos de bolita, he vivido apasionado y asombrado por todas las tecnologías que existen detrás de un simple click. He realizado trabajos de manera remota para empresas y  he aprendido y colaborado al rededor de personas muy talentosas. Soy naturalmente curioso y constantemente estoy trabajando por aumentar y mejorar mis habilidades como desarrollador.  </p>
-
+            <p>¿Recuerdas aquellos mouse de bolita? Hace 20 años que di mi primer click en uno de ellos, desde entonces
+                he vivido apasionado y
+                asombrado por todas las tecnologías que existen detrás de un simple click. He realizado trabajos de
+                manera remota para empresas y he aprendido y colaborado al rededor de personas muy talentosas. Soy
+                naturalmente curioso y constantemente estoy trabajando por aumentar y mejorar mis habilidades como
+                desarrollador. </p>
 
         </div>
         <div class="about-img">
@@ -64,164 +83,81 @@
         </div>
 
         <div class="project-list">
-        
-        <article id="controlRemoto" class="project">
-                <figure class="project-img">
-                    <img src="images/icon-android.svg">
-                </figure>
-                <div class="project-details">
-                        <p class="project-title">Control Remoto</p>
+
+            <article id="controlRemoto" class="project">
+                <p class="project-title">Control Remoto</p>
+                <div class="project-div">
+                    <figure class="project-img">
+                        <img src="images/icon-android.svg">
+                    </figure>
+                    <div class="project-details">
                         <p class="project-language">Python</p>
-                        <p class="project-description"> Esta app permite controlar los movimientos y ver en tiempo real la actividad de los sensores de proximidad de un robot tipo automovil.
+                        <p class="project-description"> Esta app permite controlar los movimientos y ver en tiempo real
+                            la actividad de los sensores de proximidad de un robot tipo automovil.
                             Cuenta con un modo Joystick y modo especifico.</p>
+                    </div>
                 </div>
-        </article>
-<!-- 
-        <article id="antColony" class="project">
-                <figure class="project-img">
-                    <img src="images/icon-python.png">
-                </figure>
-                <div class="project-container">
-                    <p class="project-title">Colonia de Hormigas</p>
-                    <div class="project-div">
-                        <div class="project-details">
-                            <p class="project-language">Python</p>
-                            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                explicabo
-                                dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                veritatis
-                                provident ducimus.</p>
-                        </div>
+            </article>
+
+            <article id="yartpApi" class="project">
+                <p class="project-title">Yartp API</p>
+                <div class="project-div">
+                    <figure class="project-img">
+                        <img src="images/icon-python.png">
+                    </figure>
+                    <div class="project-details">
+                        <p class="project-language">Python</p>
+                        <p class="project-description"> Esta API hace posible la interacción entre el control remoto y un robot tipo carro. Para poder mover el robot primero debemos hacer login.</p>
                     </div>
                 </div>
             </article>
 
             <article id="wavefront" class="project">
-                <figure class="project-img">
-                    <img src="images/icon-javascript.png">
-                </figure>
-                <div class="project-container">
-                    <p class="project-title">Wavefront</p>
-                    <div class="project-div">
-                        <div class="project-details">
-                            <p class="project-language">Python</p>
-                            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                explicabo
-                                dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                veritatis
-                                provident ducimus.</p>
-                        </div>
+                <p class="project-title">Wavefront</p>
+                <div class="project-div">
+                    <figure class="project-img">
+                        <img src="images/icon-python.png">
+                    </figure>
+                    <div class="project-details">
+                        <p class="project-language">Python</p>
+                        <p class="project-description"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                            Assumenda obcaecati ratione ipsum neque doloremque dolor amet aliquid nam in, dolorem modi
+                            dolore facilis corrupti alias, qui harum itaque a animi.</p>
                     </div>
                 </div>
             </article>
 
-            <article id="recocido" class="project">
-                    <figure class="project-img">
-                        <img src="images/geometry.png">
-                    </figure>
-                    <div class="project-container">
-                        <p class="project-title">Recocido Simulado</p>
-                        <div class="project-div">
-                            <div class="project-details">
-                                <p class="project-language">Python</p>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                    explicabo
-                                    dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                    veritatis
-                                    provident ducimus.</p>
-                            </div>
-                        </div>
-                    </div>
-            </article>
-
             <article id="hillClimbing" class="project">
+                <p class="project-title">Hill Climbing</p>
+                <div class="project-div">
                     <figure class="project-img">
-                        <img src="images/geometry.png">
+                        <img src="images/icon-python.png">
                     </figure>
-                    <div class="project-container">
-                        <p class="project-title">Hill Climbing</p>
-                        <div class="project-div">
-                            <div class="project-details">
-                                <p class="project-language">Python</p>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                    explicabo
-                                    dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                    veritatis
-                                    provident ducimus.</p>
-                            </div>
-                        </div>
+                    <div class="project-details">
+                        <p class="project-language">Python</p>
+                        <p class="project-description"> Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Officia dolorum ab harum possimus! Recusandae incidunt ab earum neque eligendi. Enim id
+                            voluptates minus. In adipisci sit suscipit perspiciatis corrupti rem?</p>
                     </div>
-            </article>
-
-            <article id="yartpApi" class="project">
-                    <figure class="project-img">
-                        <img src="images/geometry.png">
-                    </figure>
-                    <div class="project-container">
-                        <p class="project-title">Yartp API</p>
-                        <div class="project-div">
-                            <div class="project-details">
-                                <p class="project-language">Python</p>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                    explicabo
-                                    dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                    veritatis
-                                    provident ducimus.</p>
-                            </div>
-                        </div>
-                    </div>
+                </div>
             </article>
 
 
-            
 
-            <article id="contadorPalabras" class="project">
-                    <figure class="project-img">
-                        <img src="images/geometry.png">
-                    </figure>
-                    <div class="project-container">
-                        <p class="project-title">Contador de palabras</p>
-                        <div class="project-div">
-                            <div class="project-details">
-                                <p class="project-language">Python</p>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                    explicabo
-                                    dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                    veritatis
-                                    provident ducimus.</p>
-                            </div>
-                        </div>
-                    </div>
-            </article>
 
-            <article id="inventario" class="project">
-                    <figure class="project-img">
-                        <img src="images/geometry.png">
-                    </figure>
-                    <div class="project-container">
-                        <p class="project-title">Inventario</p>
-                        <div class="project-div">
-                            <div class="project-details">
-                                <p class="project-language">Python</p>
-                                <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eos sequi
-                                    explicabo
-                                    dicta minus consequatur quasi eum iste ipsa, optio perspiciatis, illum facere quos? Nihil soluta id
-                                    veritatis
-                                    provident ducimus.</p>
-                            </div>
-                        </div>
-                    </div>
-            </article> --->
+        </div>
+
+        <div class="verMas">
+            <a href="https://github.com/germantellezv" target="_blank"><button type="button"><img
+                        src="./images/icons/github.svg"> ver más</button></a>
         </div>
     </section>
-    
-
-
 
     <!-- SECCIÓN DE FOOTER -->
     <footer>
         <p>Copyright 2019 - All rights reserved</p>
     </footer>
-    
+
 </body>
+
 </html>
