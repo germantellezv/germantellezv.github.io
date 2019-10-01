@@ -309,28 +309,28 @@ footer p{
 } */
 
 /* Redmi note 5 version escritorio */
-/* @media screen and (max-width: 980px){
+@media screen and (max-width: 980px){
     .body, section, figure, img, div, .project-list{
         max-width: 980px;
     }
 
     .about {
         margin-top: -35px;
-        height: 691px;
+        height: 661px;
         width: 100%;
         background-color: #fdcd07;
     }
 
 
 
-} */
+}
 
-/* @media screen and (max-width: 767px){
+@media screen and (max-width: 767px){
     .body, section, figure, img, div, .project-list{
         max-width: 767px;
     }
-    .about{
-        height: 655px;
+    .about {
+        height: 625px;
     }
     .about p{
         color: red;
@@ -355,27 +355,40 @@ footer p{
     .project-list{
         justify-content: space-around;
     }
-    .project{
+    .project {
         border: 1px solid rgba(0,0,0,.2);
         box-shadow: -3px 6px 0.5px gainsboro;
-        width: 280px;
-        text-align: center;
-        margin-bottom: 15px;
-        
-    
+        width: 330px;
+        /* text-align: center; */
+        /* margin-bottom: 15px; */
     }
 
-    .project figure img{
-        width: 200px;
+    .project figure img {
+        width: 60px;
+        margin-bottom: 30px;
     }
-    
-
+    .project-description {
+        font-size: 12px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        width: 95%;
+        margin: 0 0 15px 0;
+    }
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
+    }
 }
- */
-/* @media screen and (max-width: 480px){
-    .body, section, figure, img, div, .project-list{
-        max-width: 480px;
-    }
+
+@media screen and (max-width: 480px){
 
     .profile nav ol li {
         font-size: 10px;
@@ -389,69 +402,71 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
     }
-
     .about {
-        height: 624px;
+        /* border: 5px solid blue; */
+        margin-top: -35px;
+        height: 545px;
+        width: 100%;
+        background-color: #fdcd07;
     }
     .about-info p {
         font-family: 'Fjalla One',sans-serif;
         color: white;
-        margin: 0 25px;
-        font-size: 14px;
+        /* width: 400px; */
+        margin: 0 20px;
+        font-size: 15px;
+        text-align: center;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    .about-img img {
+        /* border: 5px solid green; */
+        width: 442px;
+        height: auto;
+        margin-bottom: 114px;
+    }
+    .projects-title {
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        font-size: 24px;
         text-align: center;
     }
-    .projects-title p {
-        text-align: center;
-        margin: 10px 50px 0px 50px;
-    }
-    .project {
-        border: 1px solid rgba(0,0,0,.2);
-        box-shadow: -3px 6px 0.5px gainsboro;
-        width: 480px;
-        height: 150px;
-        text-align: center;
-        margin-bottom: 15px;
-    }
-    .project-container{
-        display: block;
-        margin-top: -115px;
-    }
-    
     .project-description {
-        margin-right: -52px;
-        margin-top: -7px;
-        margin-left: 115px;
-        font-size: 12px;
+        font-size: 11px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
-    }
-    .project-language {
-        display: none;
-        font-family: Roboto,sans-serif;
-        font-weight: 300;
-        text-align: left;
-        margin: 0;
+        width: 95%;
+        margin: 0 0 15px 0;
     }
     .project figure img {
-        margin-left: -255px;
-        width: 152px;
-        margin-top: 5px;
+        margin-bottom: 30px;
+        width: 60px;
+        vertical-align: middle;
+    }
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
     }
 
-    .project-title {
-        text-align: left;
-        font-family: Roboto,sans-serif;
-        font-weight: 300;
-        margin-left: 178px;
-    }
 
-} */
+}
 /* Iphone # plus */
-/* @media screen and (max-width: 414px){
-    .body, section, figure, img, div, .project-list{
-        max-width: 414px;
+@media screen and (max-width: 414px){
+    .about-info h1 {
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 1.4em;
+        color: white;
+        padding-top: 20px;
+        text-align: center;
     }
+
     .profile nav ol li {
         font-size: 13px;
         color: white;
@@ -465,33 +480,51 @@ footer p{
         font-weight: 300;
     }
     .about {
-        height: 500px;
+        height: 445px;
+    }
+    .about-info p {
+        font-family: 'Fjalla One',sans-serif;
+        color: white;
+        margin: 0 20px;
+        font-size: 15px;
+        text-align: center;
     }
     .about-img img {
         width: 340px;
         height: auto;
-        margin-bottom: 145px;
+        margin-bottom: 175px;
+    }
+    .projects-title {
+        text-align: center;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        font-size: 24px;
     }
     .project figure img {
-        margin-left: -203px;
-        width: 152px;
-        margin-top: 5px;
+        width: 60px;
+        margin-bottom: 30px;
     }
     .project-description {
-        margin-right: -25px;
-        margin-top: -7px;
-        margin-left: 135px;
-        font-size: 10px;
+        font-size: 11px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
     }
-} */
-/* Redmi Note 5 */
-/* @media screen and (max-width: 393px){
-    .body, section, figure, img, div, .project-list{
-        max-width: 393px;
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
     }
+}
+/* Redmi Note 5 */
+@media screen and (max-width: 393px){
+    
 
     .profile nav ol li {
         font-size: 7px;
@@ -505,45 +538,72 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
     }
-
     .about {
-        height: 500px;
+        height: 437px;
     }
+    .about-info h1 {
+        /* border: 5px solid pink; */
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 1.5em;
+        color: white;
+        padding-top: 20px;
+        text-align: center;
+        /* letter-spacing: 0.02em; */
+        /* font-weight: bold; */
+    }
+
+    .about-info p {
+        font-family: 'Fjalla One',sans-serif;
+        color: white;
+        /* width: 400px; */
+        margin: 0 20px;
+        font-size: 14px;
+        text-align: center;
+        /* font-family: Arial, Helvetica, sans-serif; */
+    }
+    
     .about-img img {
         width: 340px;
         height: auto;
         margin-bottom: 170px;
     }
 
-    .project-description {
-        margin-right: -20px;
-        margin-top: -7px;
-        margin-left: 109px;
-        font-size: 9px;
+    .projects-title {
+        text-align: center;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        text-align: justify;
-    }
-    .project figure img {
-        margin-left: -228px;
-        width: 103px;
-        margin-top: 23px;
+        font-size: 24px;
     }
     .project-description {
-        margin-right: -20px;
-        margin-top: -7px;
-        margin-left: 94px;
         font-size: 11px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
+        width: 95%;
+        margin: 0 0 15px 0;
     }
-} */
+    .project figure img {
+        width: 60px;
+        vertical-align: middle;
+        margin-bottom: 30px;
+    }
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
+    }
+    
+    
+}
 /* Iphone # */
-/* @media screen and (max-width: 375px){
-    .body, section, figure, img, div, .project-list{
-        max-width: 375px;
-    }
+@media screen and (max-width: 375px){
+    
     .profile nav ol li {
         font-size: 10px;
         color: white;
@@ -557,36 +617,98 @@ footer p{
         font-weight: 300;
         
     }
-    .about-img img {
-        width: 340px;
-        height: auto;
-        margin-bottom: 165px;
+    .about {
+        /* border: 5px solid blue; */
+        margin-top: -35px;
+        height: 445px;
+        width: 100%;
+        background-color: #fdcd07;
     }
-} */
-/* Moto G5 */
-/* @media screen and (max-width: 360px){
-    .project {
-        border: 1px solid rgba(0,0,0,.2);
-        box-shadow: -3px 6px 0.5px gainsboro;
-        width: 337px;
-        height: 150px;
+    .about-info h1 {
+        font-family: 'Fjalla One',sans-serif;
+        font-size: 1.4em;
+        color: white;
+        padding-top: 20px;
         text-align: center;
-        margin-bottom: 15px;
-        
     }
-    .project figure img {
-        margin-left: -211px;
-        width: 103px;
-        margin-top: 29px;
+    .about-info p {
+        font-family: 'Fjalla One',sans-serif;
+        color: white;
+        width: auto;
+        margin: 0 20px;
+        font-size: 14px;
+        text-align: center;
+        /* font-family: Arial, Helvetica, sans-serif; */
     }
-    .project-title {
-        text-align: left;
+    .about-img img {
+        /* border: 5px solid green; */
+        width: 360px;
+        height: auto;
+        margin-bottom: 158px;
+    }
+
+    .projects-title {
+        text-align: center;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        margin-left: 124px;
+        font-size: 24px;
     }
+
+    .project figure img {
+        margin-bottom: 30px;
+        width: 60px;
+        vertical-align: middle;
+    }
+    .project-description {
+        font-size: 11px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        width: 95%;
+        margin: 0 0 15px 0;
+    }
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
+    }
+    
+}
+
+/* Moto G5 */
+@media screen and (max-width: 360px){
+
     .about {
-        height: 466px;
+        /* border: 5px solid blue; */
+        margin-top: -35px;
+        height: 465px;
+        width: 100%;
+        background-color: #fdcd07;
+    }
+    
+    
+    .profile nav ol li {
+        font-size: 9px;
+        color: white;
+        border: 1px solid rgba(255,255,255,.2);
+        border-radius: 30px;
+        padding: 5px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0px 2px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+    }
+    .about-img img {
+        width: auto;
+        height: 200px;
+        margin-bottom: 190px;
     }
     .about-info h1 {
         font-family: 'Fjalla One',sans-serif;
@@ -602,20 +724,37 @@ footer p{
         margin: 0 25px;
         font-size: 15px;
         text-align: center;
-        
     }
-    .profile nav ol li {
-        font-size: 9px;
-        color: white;
-        border: 1px solid rgba(255,255,255,.2);
-        border-radius: 30px;
-        padding: 5px;
-        padding-left: 15px;
-        padding-right: 15px;
-        margin: 0px 2px;
+    .projects-title {
+        text-align: center;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        
+        font-size: 24px;
+    }
+    .project-description {
+        font-size: 10px;
+        font-family: Roboto,sans-serif;
+        font-weight: 300;
+        text-align: justify;
+        width: 95%;
+        margin: 0 0 15px 0;
+    }
+    .project figure img {
+        margin-bottom: 30px;
+        width: 50px;
+        vertical-align: middle;
+    }
+
+    .verMas {
+        font-size: 16px;
+        display: flex;
+        justify-content: space-evenly;
+        width: 90%;
+        margin: 0;
+        margin-bottom: 20px;
+        padding: 5px 0;
+        border: 1px solid rgba(0,0,0,.2);
+        border-radius: 5px;
     }
     
-} */
+}
