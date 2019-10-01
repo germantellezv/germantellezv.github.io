@@ -118,84 +118,6 @@ nav {
     background-color: #fdcd07; /* Amarillo Condor Labs :) */
     color: black !important;
 }
-.projects{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-}
-
-.projects-title{
-    font-family: Roboto,sans-serif;
-    font-weight: 300;
-    font-size: 24px;
-}
-.project-list{
-    width: 90%;
-    /* border: 1px solid red; */
-    margin: 0;
-    padding: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-
-
-.project{
-    /* border-radius: 10px; */
-    border: 1px solid rgba(0,0,0,.2);
-    box-shadow: -3px 6px 0.5px gainsboro;
-    width: 300px;
-    text-align: center;
-    margin-bottom: 15px;
-    /* border-top-left-radius: 0;
-    border-top-right-radius: 0; */
-    /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
-
-}
-
-.project figure img{
-    width: 220px;
-}
-
-.project-div{
-    display: flex;
-    justify-content: center;
-}
-
-.project-details{
-    /* border:1px solid red; */
-    width: 300px;
-    padding-left: 30px;
-    padding-right: 30px;
-
-}
-.project-description{
-    font-family: Roboto,sans-serif;
-    font-weight: 300;
-    text-align: justify;
-    /* border: 1px solid #fdcd07; */
-    /* width: 350px; */
-}
-.project-title{
-    font-family: Roboto,sans-serif;
-    font-weight: 300;
-    /* object-fit: cover; */
-    /* letter-spacing: 0.1em; */
-    /* font-weight: bold; */
-    /* margin: 0px; */
-    /* padding-top: 20px;
-    padding-bottom: 20px; */
-}
-
-.project-language{
-    display: none;
-    font-family: Roboto,sans-serif;
-    font-weight: 300;
-    text-align: left;
-    margin: 0;
-}
 
 /* SECCION DE ABOUT ME */
 
@@ -239,7 +161,123 @@ nav {
     /* border: 5px solid green; */
     width: 540px;
     height: 330px;
-    margin-bottom: 5px;
+    margin-bottom: 35px;
+}
+
+/* SECCION DE PROYECTOS */
+
+.projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+.projects-title{
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+.project-list{
+    width: 90%;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.project{
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: -3px 6px 0.5px gainsboro;
+    width: 500px;
+    margin-bottom: 15px;
+
+}
+
+.project-title{
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    margin: 10px 0;
+    margin-bottom: 0;
+    text-align: center;
+
+}
+.project-div{
+    display: flex;
+    align-items: center;
+}
+.project figure{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin: 0;
+    height: 100%;
+    width: 25%;
+}
+.project figure img{
+    width: 80px;
+    vertical-align: middle;
+}
+
+.project-details{
+    width: 75%;
+}
+
+.project-description{
+    font-size: 14px;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    text-align: justify;
+    width: 95%;
+    margin: 0 0 15px 0;
+}
+
+.project-language{
+    display: none;
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    text-align: left;
+    margin: 0;
+}
+
+.verMas {
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 5px;
+    
+}
+.verMas img {
+    vertical-align: middle;
+}
+
+.verMas a {
+    width: 100%;
+
+}
+
+.verMas button {
+    font-family: Roboto,sans-serif;
+
+    font-weight: 300;
+    width: 100%;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+}
+
+.verMas p {
+    margin: 0;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -252,8 +290,6 @@ footer{
     margin: 0;
     height: 100px;
     width: 100%;
-    margin-top: -20px;
-    /* background-color: #0B1911; */
     background-color: black;
 }
 
@@ -263,24 +299,22 @@ footer p{
     color: white;
 }
 
-@media screen and (max-width: 1023px){
+/* @media screen and (max-width: 1023px){
     .about {
-        /* border: 5px solid blue; */
         margin-top: -35px;
         height: 660px;
         width: 100%;
         background-color: #fdcd07;
     }
-}
+} */
 
 /* Redmi note 5 version escritorio */
-@media screen and (max-width: 980px){
+/* @media screen and (max-width: 980px){
     .body, section, figure, img, div, .project-list{
         max-width: 980px;
     }
 
     .about {
-        /* border: 5px solid blue; */
         margin-top: -35px;
         height: 691px;
         width: 100%;
@@ -289,9 +323,9 @@ footer p{
 
 
 
-}
+} */
 
-@media screen and (max-width: 767px){
+/* @media screen and (max-width: 767px){
     .body, section, figure, img, div, .project-list{
         max-width: 767px;
     }
@@ -303,14 +337,10 @@ footer p{
     }
     .about-info p {
         font-family: 'Fjalla One',sans-serif;
-        /* font-family: Roboto,sans-serif;
-        font-weight: 300; */
         color: white;
-        /* width: 400px; */
         margin: 0 100px;
         font-size: 20px;
         text-align: center;
-        /* font-family: Arial, Helvetica, sans-serif; */
     }
     
     .projects-title p{
@@ -326,15 +356,12 @@ footer p{
         justify-content: space-around;
     }
     .project{
-        /* border-radius: 10px; */
         border: 1px solid rgba(0,0,0,.2);
         box-shadow: -3px 6px 0.5px gainsboro;
         width: 280px;
         text-align: center;
         margin-bottom: 15px;
-        /* border-top-left-radius: 0;
-        border-top-right-radius: 0; */
-        /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
+        
     
     }
 
@@ -344,8 +371,8 @@ footer p{
     
 
 }
-
-@media screen and (max-width: 480px){
+ */
+/* @media screen and (max-width: 480px){
     .body, section, figure, img, div, .project-list{
         max-width: 480px;
     }
@@ -361,7 +388,6 @@ footer p{
         margin: 0px 10px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* font-family: Arial, Helvetica, sans-serif; */
     }
 
     .about {
@@ -370,11 +396,9 @@ footer p{
     .about-info p {
         font-family: 'Fjalla One',sans-serif;
         color: white;
-        /* width: 400px; */
         margin: 0 25px;
         font-size: 14px;
         text-align: center;
-        /* font-family: Arial, Helvetica, sans-serif; */
     }
     .projects-title p {
         text-align: center;
@@ -387,7 +411,6 @@ footer p{
         height: 150px;
         text-align: center;
         margin-bottom: 15px;
-        /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
     }
     .project-container{
         display: block;
@@ -402,8 +425,6 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
-        /* border: 1px solid #fdcd07; */
-        /* width: 350px; */
     }
     .project-language {
         display: none;
@@ -422,15 +443,12 @@ footer p{
         text-align: left;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* object-fit: cover; */
-        /* letter-spacing: 0.1em; */
-        /* font-weight: bold; */
         margin-left: 178px;
     }
 
-}
+} */
 /* Iphone # plus */
-@media screen and (max-width: 414px){
+/* @media screen and (max-width: 414px){
     .body, section, figure, img, div, .project-list{
         max-width: 414px;
     }
@@ -445,13 +463,11 @@ footer p{
         margin: 0px 2px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* font-family: Arial, Helvetica, sans-serif; */
     }
     .about {
         height: 500px;
     }
     .about-img img {
-        /* border: 5px solid green; */
         width: 340px;
         height: auto;
         margin-bottom: 145px;
@@ -469,12 +485,10 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
-        /* border: 1px solid #fdcd07; */
-        /* width: 350px; */
     }
-}
+} */
 /* Redmi Note 5 */
-@media screen and (max-width: 393px){
+/* @media screen and (max-width: 393px){
     .body, section, figure, img, div, .project-list{
         max-width: 393px;
     }
@@ -490,14 +504,12 @@ footer p{
         margin: 0px 10px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* font-family: Arial, Helvetica, sans-serif; */
     }
 
     .about {
         height: 500px;
     }
     .about-img img {
-        /* border: 5px solid green; */
         width: 340px;
         height: auto;
         margin-bottom: 170px;
@@ -511,8 +523,6 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
-        /* border: 1px solid #fdcd07; */
-        /* width: 350px; */
     }
     .project figure img {
         margin-left: -228px;
@@ -527,12 +537,10 @@ footer p{
         font-family: Roboto,sans-serif;
         font-weight: 300;
         text-align: justify;
-        /* border: 1px solid #fdcd07; */
-        /* width: 350px; */
     }
-}
+} */
 /* Iphone # */
-@media screen and (max-width: 375px){
+/* @media screen and (max-width: 375px){
     .body, section, figure, img, div, .project-list{
         max-width: 375px;
     }
@@ -547,17 +555,16 @@ footer p{
         margin: 0px 2px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* font-family: Arial, Helvetica, sans-serif; */
+        
     }
     .about-img img {
-        /* border: 5px solid green; */
         width: 340px;
         height: auto;
         margin-bottom: 165px;
     }
-}
+} */
 /* Moto G5 */
-@media screen and (max-width: 360px){
+/* @media screen and (max-width: 360px){
     .project {
         border: 1px solid rgba(0,0,0,.2);
         box-shadow: -3px 6px 0.5px gainsboro;
@@ -565,7 +572,7 @@ footer p{
         height: 150px;
         text-align: center;
         margin-bottom: 15px;
-        /* background-image: url(../images/simulated-annealing-algorithm-dark.png); */
+        
     }
     .project figure img {
         margin-left: -211px;
@@ -576,32 +583,26 @@ footer p{
         text-align: left;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* object-fit: cover; */
-        /* letter-spacing: 0.1em; */
-        /* font-weight: bold; */
         margin-left: 124px;
     }
     .about {
         height: 466px;
     }
     .about-info h1 {
-        /* border: 5px solid pink; */
         font-family: 'Fjalla One',sans-serif;
         font-size: 1.3em;
         color: white;
         padding-top: 20px;
         text-align: center;
-        /* letter-spacing: 0.02em; */
-        /* font-weight: bold; */
+        
     }
     .about-info p {
         font-family: 'Fjalla One',sans-serif;
         color: white;
-        /* width: 400px; */
         margin: 0 25px;
         font-size: 15px;
         text-align: center;
-        /* font-family: Arial, Helvetica, sans-serif; */
+        
     }
     .profile nav ol li {
         font-size: 9px;
@@ -614,7 +615,7 @@ footer p{
         margin: 0px 2px;
         font-family: Roboto,sans-serif;
         font-weight: 300;
-        /* font-family: Arial, Helvetica, sans-serif; */
+        
     }
     
-}
+} */
