@@ -39,13 +39,14 @@ function mostrarPython()
         controlRemoto= document.getElementById('controlRemoto');
         contadorPalabras = document.getElementById('contadorPalabras');
         inventario = document.getElementById('inventario');
-
+        antColony = document.getElementById('antColony')
         //mostrar
         recocido.style.display = 'block';
         wavefront.style.display = 'block';
         hillClimbing.style.display = 'block';
         yartpApi.style.display = 'block';
         inventario.style.display = 'block';
+        antColony.style.display = 'block';
         // ocultar
         controlRemoto.style.display = 'none';
         contadorPalabras.style.display = 'none';
