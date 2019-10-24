@@ -43,8 +43,8 @@ function mostrarPython()
         
         //mostrar
         wavefront.style.display = 'block';
-        Aurora.style.display = 'block';
         yartpApi.style.display = 'block';
+        // Aurora.style.display = 'block';
         // antColony.style.display = 'block';
         // inventario.style.display = 'block';
         // recocido.style.display = 'block';
@@ -125,7 +125,7 @@ function mostrarJavascript()
         yartpApi.style.display = 'none';
         controlRemoto.style.display = 'none';
         wavefront.style.display = 'none';
-        Aurora.style.display = 'none';
+        // Aurora.style.display = 'none';
         // contadorPalabras.style.display = 'none';
         // antColony.style.display = 'block';
         // inventario.style.display = 'block';
